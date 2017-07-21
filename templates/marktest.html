@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>markdownTest</title>
+    <link rel="stylesheet" type="text/css" href="{% static "css/testcss.css" %}">
+</head>
+<body>
+    <div class="markdownx row">
+        <div class="col-md-6">
+            {{ markdownx_editor }}
+        </div>
+        <div class="col-md-6">
+            <div class="markdownx-preview"></div>
+        </div>
+    </div>
+</body>
+</html>

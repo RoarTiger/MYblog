@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Markdown编辑</title>
+    <link rel="stylesheet" type="text/css" href="{% static "css/styleMarkdown.css" %}">
+</head>
+<body>
+    <div style="width: 100% ; height: 100px; background: #f1ffdc;">标题栏
+        <button type="button" class="button_style"> 发表博客</button>
+    </div>
+    <div class="toolbar">工具栏</div>
+    <div>
+        <div class="frameleft">
+            <p>编辑栏</p>
+        </div>
+        <div class="frameright">
+            <p>预览栏</p>
+        </div>
+    </div>
+</body>
+</html>
